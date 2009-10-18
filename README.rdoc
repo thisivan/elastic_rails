@@ -10,4 +10,4 @@ A simple css framework to layout web-based interfaces, based on the printed layo
 
 == About Elastic
 
-Current stable version is 2.0.2. For more information about Elastic please visit http://elasticss.com/
+Current stable version is 2.0.2. For more information about Elastic please visit http://elasticss.com
