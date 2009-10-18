@@ -1,0 +1,13 @@
+= Elastic CSS Framework Plugin for Rails
+
+== What is Elastic?
+
+A simple css framework to layout web-based interfaces, based on the printed layout techniques of 4 columns but with capabilities to unlimited column combinations. and capacity to make elastic, fixed and liquid layout easily.
+
+== Installation
+
+  script/plugin install git://github.com/mexpolk/elastic_rails.git
+
+== About Elastic
+
+Current stable version is 2.0.2. For more information about Elastic please visit http://elasticss.com/
