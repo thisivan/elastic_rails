@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+
+# Load Rails environment
+ENV['RAILS_ENV'] = ARGV.first || ENV['RAILS_ENV'] || 'development'
+
+begin
+
+  require File.expand_path('config/environment')
+
+  puts 'Copying files...'
+
+  javascripts_dir = File.join(RAILS_ROOT, 'public', 'javascripts')
+  stylesheets_dir = File.join(RAILS_ROOT, 'public', 'stylesheets')
+
+  javascripts = Dir[File.join(File.dirname(__FILE__), '..', '/javascripts/', '*.js')]
+  stylesheets = Dir[File.join(File.dirname(__FILE__), '..', '/stylesheets/', '*.css')]
+
+  FileUtils.cp(javascripts, javascripts_dir)
+  FileUtils.cp(stylesheets, stylesheets_dir)
+
+  puts 'files copied successfully'
+
+rescue LoadError
+  puts 'Couldn\'t find Rails. Exiting'
+end

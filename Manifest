@@ -1,0 +1,8 @@
+LICENCE
+Manifest
+README.rdoc
+Rakefile
+bin/elasticss
+javascripts/elastic.js
+stylesheets/elastic.css
+stylesheets/elastic.print.css
