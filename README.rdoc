@@ -8,7 +8,7 @@ A simple css framework to layout web-based interfaces, based on the printed layo
 
 Install the gem in your machine (this is required only once):
 
-  sudo gem install elastic_css
+  sudo gem install elastic_rails
 
 and from your Rails application root directory run:
 
