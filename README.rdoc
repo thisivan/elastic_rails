@@ -1,4 +1,4 @@
-= Elastic CSS Framework Plugin for Rails
+= Elastic CSS Framework Setup Script for Rails
 
 == What is Elastic?
 
