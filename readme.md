@@ -1,6 +1,6 @@
 # Elastic CSS Framework Plugin for Rails
 
-[![](http://stillmaintained.com/user/project.png)](http://stillmaintained.com/user/project)
+[![](http://stillmaintained.com/mexpolk/elastic_rails.png)](http://stillmaintained.com/mexpolk/elastic_rails)
 
 ## What is Elastic?
 
